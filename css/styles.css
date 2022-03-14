@@ -5,8 +5,12 @@
 
 /* Styles for the body */
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Sans-serif, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
@@ -14,7 +18,7 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #7292AA;
 }
 
 .resume-main {
@@ -22,7 +26,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #C1C9C7;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +40,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: ###3D5A73;
 }
 
 .biography-details li, .skill-list li {
@@ -49,3 +53,29 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
+.language-level {
+	background-color: #EEEDDE
+}
+
+.language-progress {
+	background-color: #203239
+}
+
+.border-info {
+    border-color: #203239!important;
+}
+
+.border-info {
+    background-color: : #203239!important;
+}
+
+.language-progress {
+    background-color: #B4CFB0;
+}
+
+
+
+}
+
+203239
