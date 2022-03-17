@@ -34,6 +34,13 @@ h1, h2, h3, h4, p, li, dt {
 	margin: .3em 0;
 }
 
+.funky-text {
+color: #ffffff;
+text-align: left;
+font-style: italic;
+text-decoration: underline #ffcc00;
+}
+
 .resume-container {
 	display: flex;
 	flex-flow: row;
