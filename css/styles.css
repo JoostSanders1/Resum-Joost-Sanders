@@ -1,22 +1,28 @@
 /* Use this file to use your own styles*/
 
-<style>
+/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Mono:wght@100&display=swap');
-</style>
 
 /* Styles for the body */
 
-<link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
-
 body {
 	font-family: 'Roboto Mono', monospace;
-	color: #202030;
+	color: #47A8BD;
 	background-color: #f8f8fc;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
+
+.funky-text {
+color: #ffffff;
+text-align: left;
+font-style: italic;
+text-decoration: underline #ffcc00;
+}
 
 .resume-header {
     background-color: #7292AA;
@@ -28,6 +34,7 @@ body {
 
 .resume-aside {
 	background-color: #C1C9C7;
+	a:#ffffff
 }
 
 /* Styles for lists in the document */
@@ -78,3 +85,5 @@ body {
 
 
 }
+
+203239
