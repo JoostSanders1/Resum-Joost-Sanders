@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 
 body {
-	font-family: Sans-serif, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	color: #202030;
 	background-color: #f8f8fc;
 }
